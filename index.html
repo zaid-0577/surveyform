@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+          <img src="https://vectorspedia.com/images/6df0Go-Green-Grunge-Concept1.jpg" alt="">
+      </div>
+      <div class="heading">
+            <h1>GoGreen Survey Form</h1>
+            <p>A survey form on the health of the environment</p>
+      </div>
+      <div class="form">
+        <form class="" action="index.html" method="post">
+          <div class="naming text-box">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name e.g Zaid Khan">
+          </div>
+
+          <div class="email text-box">
+            <label for="mail">Email:</label>
+            <input type="text" name="" id="mail" placeholder="xyz@gmail.com">
+          </div>
+
+          <div class="age text-box">
+            <label for="age">Age(Optional):</label>
+            <input type="text" name="" id="age" placeholder="Enter your age">
+          </div>
+
+          <p>select continent of residence</p>
+          <div class="select-option">
+            <select class="continent" name="">
+                <option selected value="Asia">Asia</option>
+                <option value="Africa" >Africa</option>
+                <option value="Australia">Australia</option>
+                <option value="Europe">Europe</option>
+            </select>
+          </div>
+          <p>Choose your prefered gender</p>
+          <div class="gender">
+               <label for="male"> <input type="radio" name="gender" id="male"> Male</label>
+               <label for="female"> <input type="radio" name="gender" id="female"> Female</label>
+               <label for="other"> <input type="radio" name="gender" id="other"> Other</label>
+          </div>
+
+          <p>Please select atleast one of the options below:</p>
+          <div class="checkbox">
+            <label for="opt1"><input type="checkbox" name="opt1"id="opt1">I have planted a tree or any other plant</label>
+            <label for="opt2"><input type="checkbox" name="opt2" id="opt2">I belong to a GoGreen group</label>
+            <label for="opt3"><input type="checkbox" name="opt3" id="opt3">I take part in community service for the environment</label>
+            <label for="opt4"><input type="checkbox" name="opt4" id="opt4">I promise to plant more from now on</label>
+          </div>
+
+          <p class="sub-title">Any comments or suggestions</p>
+          <div class="text-area">
+              <textarea name="name" rows="10" cols="100" placeholder="Comments/Suggestions..."></textarea>
+          </div>
+          <div class="btn">
+              <input type="submit" name="submit" value="submit">
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </body>
+</html>

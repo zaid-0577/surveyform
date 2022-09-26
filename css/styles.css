@@ -1,0 +1,94 @@
+body{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: url(https://www.wallpapertip.com/wmimgs/166-1668509_summer-forest.jpg);
+  line-height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  color: white;
+}
+p{
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+select{
+    outline: none;
+}
+
+/***********CLASS TAGS*******************/
+.container{
+  background: #0e080894;
+  width: 60%;
+  margin: auto;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-radius: 20px;
+}
+.logo img{
+  width: 70px;
+  height: 70px;
+}
+.heading{
+  text-align: center;
+}
+.form{
+  text-align: center;
+}
+.text-box{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 3;
+}
+.text-box input{
+  outline: none;
+  border-radius: 8px;
+  width:80%;
+  padding: 10px;
+}
+.continent{
+  display: flex;
+  align-items: flex-start;
+  border-radius: 8px;
+  width:82%;
+  padding: 10px;
+}
+
+.gender{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 1.2rem;
+}
+.checkbox{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 1.2rem;
+}
+.text-area {
+  display: flex;
+  align-self: flex-start;
+  margin-bottom: 30px;
+}
+.text-area textarea{
+    outline: none;
+  border-radius:8px;
+}
+.btn{
+  width: 40%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.btn input{
+  background: green;
+  width:100%;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.3rem;
+  font-weight: 100;
+  color: white;
+}
